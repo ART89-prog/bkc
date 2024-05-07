@@ -290,7 +290,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px 0 60px;
-    height: 804px;
     position: relative;
 }
 header:before {
@@ -321,15 +320,17 @@ header:before {
     font-weight: 400;
     line-height: 1.25;
     text-align: center;
-    position: relative;
     margin-bottom: 40px;
 }
-.header_label:before {
+.header_label span {
+    position: relative;
+}
+.header_label span:before {
     position: absolute;
     content: "";
     width: 17px;
     height: 17px;
-    left: 20px;
+    left: -33px;
     top: 50%;
     background: #E9010F;
     transform: translateY(-50%);

@@ -1,145 +1,89 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size_title: 28px;
-        --font_size: 16px;
+        --font_size_title: 24px;
+        --font_size: 14px;
     }
-    header .mob_menu_btn {
-        top: 13px;
+
+    .header_logo {
+        width: 188px;
+        height: 30px;
+        margin: 0 auto;
     }
-    .menu_open header .close_btn {
-        top: 4px;
+    .header_logo img {
+        width: 100%;
+        height: 100%;        
     }
-    .case .swiper-button-prev,
-    .case .swiper-button-next {
-        display: none;
+    .header_info {
+        margin-top: 30px;
     }
-    .case_box {
-        margin: 0;
-    }
-    .step_items {
-        flex-direction: column;
-    }
-    .step_items > * {
+    .header_label {
+        padding: 4px 20px 4px 40px;
+        font-size: 14px;
+        margin: 0 auto 120px;
+        text-align: center;
         width: 100%;
     }
-    .step_item:nth-child(1)::after {
-        position: absolute;
-        content: "";
-        width: 22px;
-        height: 41px;
-        right: 50%;
-        top: 100%;
-        transform: translateX(11px);
-        background: url(../images/arrow2.svg);
+    .header_label span:before {
+        width: 10px;
+        height: 10px;
+        left: -20px;
     }
-    .step_item:nth-child(2)::after {
-        position: absolute;
-        content: "";
-        width: 22px;
-        height: 41px;
-        right: 50%;
-        top: 100%;
-        transform: translateX(11px);
-        background: url(../images/arrow2.svg);
+    .header_title {
+        margin-bottom: 10px;
     }
-    .step_item:nth-child(3)::after {
-        transform: translateX(11px);
+    .header_text {
+        font-size: 16px;
+        margin-bottom: 37px;
     }
-    .step_item:nth-child(4)::after {
-        display: none;
+    header {
+        padding: 20px 0 40px;
     }
-    .step_item:nth-child(5)::after {
-        position: absolute;
-        content: "";
-        width: 22px;
-        height: 41px;
-        right: 50%;
-        top: 100%;
-        transform: translateX(11px);
-        background: url(../images/arrow2.svg);
+    .header_date {
+        margin-top: 20px;
     }
-    .step_item:nth-child(5) {
-        order: 4;
+    .program_desc {
+        padding: 40px 0 20px;
     }
-    .step_item:nth-child(4) {
-        order: 5;
+    .program_top p b {
+        font-size: 16px;
     }
-    .decision_box {
-        max-width: 100%;
-        padding: 30px;
+    .program {
+        padding: 20px 0 40px;
     }
-    .decision_box {
-        border-radius: 0;
+    .program_info-photo {
+        width: 104px;
+        height: 104px;
     }
-    .decision .cont {
-        padding: 0;
+    .program_wrap {
+        gap: 19px;
     }
-    .decision_box:after {
-        width: 67px;
-        height: 67px;
-        top: -33px;
-        right: 35px;
-        background-size: cover;
+    .program_name {
+        font-size: 16px;
+        margin-bottom: 7px;
     }
-    .problem_img:after {
-        width: 70px;
-        height: 70px;
+    .program_info {
+        margin-top: 27px;
     }
-    .benefits_img:after {
-        width: 70px;
-        height: 70px;
+    .program_info ul {
+        padding-left: 37px;
+        margin-left: -140px;
     }
-    .first-section_title {
-        font-size: 24px;
-    }
-    .first-section_text {
-        margin-bottom: 30px;
-    }
-    .block,
-    .block2,
-    .block3 {
+    .program_post {
         margin-bottom: 50px;
     }
-    .first-section {
-        margin-bottom: 100px;
+    .registration {
+        padding: 40px 0;
     }
-    .training_item-icon {
-        width: 80px;
-        height: 80px;
-        padding: 20px;
-        margin-top: -40px;
+    .registration_text {
+        font-size: 20px;
     }
-    .training_item-icon img {
-        width: 100%;
-        height: 100%;
+    .registration form button {
+        margin-top: 20px;
     }
-    .training_items {
-        gap: 30px;
-    }
-    .advantages_item-img {
-        width: 170px;
-        height: 170px;
-    }
-    .header_logo {
-        font-size: 8px;
-    }
-    .step_title {
-        margin-bottom: 40px;
-    }
-    .case .swiper {
-        padding-bottom: 40px;
-    }
-    .case .swiper .swiper-pagination,
-    .client_items .swiper-pagination,
-    .client_items2 .swiper-pagination,
-    .client_items3 .swiper-pagination {
-        display: flex;
-    }
-    .client_btn {
-        margin: 40px auto 20px;
-    }
-    
+
+
+
 
 
 
