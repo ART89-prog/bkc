@@ -1,7 +1,57 @@
 @media (max-width: 479px) {
 
-
-   
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_soc a {
+        margin-left: 0px;
+        margin-right: 16px;
+    }
+    .footer_soc {
+        margin-top: 50px;
+    }
+    .footer_contact {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .footer_logo {
+        margin-bottom: 40px;
+    }
+    .registration_text {
+        font-size: 14px;
+    }
+    .registration_title {
+        font-size: 16px;
+    }
+    .registration form .line .field input {
+        height: 27px;
+        font-size: 12px;
+    }
+    .registration form .line {
+        margin-bottom: 15px;
+    }
+    .registration form .line .field input::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    .registration form .line .field input::-moz-placeholder {
+        font-size: 12px;
+    }
+    .registration form .line .field input:-moz-placeholder {
+        font-size: 12px;
+    }
+    .registration form .line .field input:-ms-input-placeholder {
+        font-size: 12px;
+    }
+    .registration form button {
+        height: 45px;
+    }
+    .header_btn {
+        max-width: 261px;
+        margin: 0 auto;
+    }
+    .header_text {
+        font-size: 14px;
+    }
 
 
   

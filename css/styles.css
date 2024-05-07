@@ -435,7 +435,7 @@ header:before {
     font-family: var(--font_family2);
     font-size: var(--font_size_title);
     font-weight: 700;
-    line-height: 58px;
+    line-height: 1.2;
     margin-bottom: 90px;
     text-align: center;
 }
