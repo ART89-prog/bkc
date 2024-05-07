@@ -30,10 +30,6 @@
 
 
 	<!-- Подключение файлов стилей -->
-	<link rel="stylesheet" href="css/fancybox.css">
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<link rel="stylesheet" href="css/swiper.css">
-
 	<link rel="stylesheet" href="css/styles.css">
 
 	<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
@@ -55,7 +51,7 @@
 						<div class="header_label">бесплатная онлайн-трансляция</div>
 						<div class="header_title">Эффективный аутстаффинг: стратегии и практика</div>
 						<div class="header_text">Как улучшить бизнес-процессы, уменьшить затраты и повысить производительность</div>
-						<a href="#" class="header_btn">Регистрация</a>
+						<a href="#registration" class="header_btn scroll">Регистрация</a>
 						<div class="header_date">29 мая 2024 <br>в 14:00 (МСК)</div>
 					</div>					
 				</div>
@@ -90,7 +86,7 @@
 			</section>
 
 
-			<section class="registration">
+			<section class="registration" id="registration">
 				<div class="cont">
 					<div class="registration_title">Регистрация на вебинар</div>
 					<div class="registration_text">Заполните форму и получите подарок: <span>бесплатный расчёт наших услуг по&nbsp;вашим параметрам</div></span>
@@ -161,51 +157,13 @@
 
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
-		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/fancybox.min.js"></script>
 		<script src="js/imask.js"></script>
 		<script src="js/lozad.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 	
 
-		<script src="https://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
-		<script>			
-			ymaps.ready(init);
-
-				function init () {
-					var myMap = new ymaps.Map('map', {
-							center: [55.724434,37.607332],
-							zoom: 14
-						})
-
-
-
-						myPlacemark1 = new ymaps.Placemark([55.724434,37.607332], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],
-						}),
-
-						myPlacemark2 = new ymaps.Placemark([55.72673,37.622145], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],				
-						});
-
-						myPlacemark3 = new ymaps.Placemark([55.729772,37.620578], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],				
-						});
-
-					myMap.geoObjects.add(myPlacemark1)
-						.add(myPlacemark2);
-				}
-		</script>
+		
 
 </body>
 
