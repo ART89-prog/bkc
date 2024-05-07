@@ -98,13 +98,15 @@ input[type=number] {
 }
 
 
-
 @font-face {
-    font-family: "Druk Wide Cyr";
+    font-family: 'druk';
     src: local('druktextwidecyr-bold'), local('druktextwidecyr-bold'),
         url('../fonts/druktextwidecyr-bold.woff') format('woff'),
         url('../fonts/druktextwidecyr-bold.ttf') format('truetype');
     }
+
+
+
 
 
 /*-------------------
@@ -117,7 +119,7 @@ input[type=number] {
     --font_size: 24px;
     --font_size_title: 48px;
     --font_family1: "Mulish";
-    --font_family2: "Druk Wide Cyr";
+    --font_family2: 'druk';
 }
 
 
@@ -132,7 +134,6 @@ input[type=number] {
 
     background: #18A0FB;
 }
-
 
 .clear {
     clear: both;
@@ -307,7 +308,7 @@ header:before {
     text-align: center;
 }
 .header_info {
-    margin-top: 78px;
+    margin-top: 72px;
 }
 .header_label {
     padding: 10px 20px 10px 57px;
@@ -349,7 +350,7 @@ header:before {
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
-    max-width: 800px;
+    max-width: 820px;
     margin-bottom: 60px;
 }
 .header_btn {
@@ -365,6 +366,20 @@ header:before {
     text-decoration: none;
     display: block;
     max-width: 395px;
+    transition: all .4s;
+    border: 2px solid #E9010F;
+}
+.header_btn:hover {
+    background: #FFFFFF;
+    color: #E9010F;
+}
+.header_btn:active {
+    color: #5236AD;
+}
+.header_btn .disable {
+    color: #fff;
+    background: #B7B7B7;
+    border: 2px solid #B7B7B7;
 }
 .header_date {
     color: rgb(255, 255, 255);
@@ -376,8 +391,16 @@ header:before {
 }
 
 
+
+
+.program_desc {
+    padding: 60px 0 40px;
+}
 .program {
     padding: 60px 0 44px;
+}
+.program .cont {
+    max-width: 940px;
 }
 .program_top {
     columns: 2;
@@ -388,7 +411,6 @@ header:before {
     line-height: 1.25;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
 }
 .program_top p:nth-child(1) {
     max-width: 480px;
@@ -418,7 +440,6 @@ header:before {
 }
 .program_wrap {
     display: flex;
-    justify-content: space-between;
     gap: 100px;
 }
 .program_info-photo {
@@ -448,7 +469,7 @@ header:before {
     font-size: var(--font_size);
     font-weight: 700;
     line-height: 1.25;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .program_post {
     color: rgb(25, 7, 38);
@@ -484,7 +505,7 @@ header:before {
     margin: 0 auto 34px;
 }
 .registration_text span {
-    font-weight: 700;
+    font-weight: 900;
 }
 .registration form {
     max-width: 480px;
@@ -551,6 +572,20 @@ header:before {
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
+    transition: all .4s;
+    border: 2px solid #E9010F;
+}
+.registration form button:hover {
+    background: #FFFFFF;
+    color: #E9010F;
+}
+.registration form button:active {
+    color: #5236AD;
+}
+.registration form button .disable {
+    color: #fff;
+    background: #B7B7B7;
+    border: 2px solid #B7B7B7;
 }
 
 
