@@ -114,9 +114,10 @@ input[type=number] {
     --bg: #fff;
     --scroll_width: 17px;
     --text_color: #131313;
-    --font_size: 16px;
-    --font_size_title: 32px;
-    --font_family: "Mulish";
+    --font_size: 24px;
+    --font_size_title: 48px;
+    --font_family1: "Mulish";
+    --font_family2: "Druk Wide Cyr";
 }
 
 
@@ -314,8 +315,8 @@ header:before {
     display: inline-block;
     border-radius: 30px;
     color: rgb(255, 255, 255);
-    font-family: "Mulish";
-    font-size: 24px;
+    font-family: var(--font_family1);
+    font-size: var(--font_size);
     font-weight: 400;
     line-height: 1.25;
     text-align: center;
@@ -335,8 +336,8 @@ header:before {
 }
 .header_title {
     color: rgb(255, 255, 255);
-    font-family: "Druk Wide Cyr";
-    font-size: 48px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size_title);
     font-weight: 700;
     line-height: 1.2;
     max-width: 750px;
@@ -344,7 +345,7 @@ header:before {
 }
 .header_text {
     color: rgb(255, 255, 255);
-    font-family: "Mulish";
+    font-family: var(--font_family1);
     font-size: 32px;
     font-weight: 400;
     line-height: 1.25;
@@ -356,8 +357,8 @@ header:before {
     background: rgb(233, 1, 15);
     padding: 14px;
     color: rgb(255, 255, 255);
-    font-family: "Druk Wide Cyr";
-    font-size: 24px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
@@ -367,8 +368,8 @@ header:before {
 }
 .header_date {
     color: rgb(255, 255, 255);
-    font-family: "Mulish";
-    font-size: 24px;
+    font-family: var(--font_family1);
+    font-size: var(--font_size);
     font-weight: 400;
     line-height: 1.25;
     margin-top: 60px;
@@ -381,8 +382,8 @@ header:before {
 .program_top {
     columns: 2;
     color: rgb(25, 7, 38);
-    font-family: "Mulish";
-    font-size: 24px;
+    font-family: var(--font_family1);
+    font-size: var(--font_size);
     font-weight: 400;
     line-height: 1.25;
     display: flex;
@@ -396,20 +397,20 @@ header:before {
     max-width: 360px;
 }
 .program_top p b {
-    font-family: "Druk Wide Cyr";
-    font-size: 24px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-weight: 700;
 }
 .program_top p span {
-    font-family: "Druk Wide Cyr";
-    font-size: 24px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-weight: 700;
     color: rgb(82, 54, 173);
 }
 .program_title {
     color: rgb(82, 54, 173);
-    font-family: "Druk Wide Cyr";
-    font-size: 48px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size_title);
     font-weight: 700;
     line-height: 58px;
     margin-bottom: 90px;
@@ -436,23 +437,23 @@ header:before {
 }
 .program_info ul li {
     color: rgb(25, 7, 38);
-    font-family: "Mulish";
-    font-size: 24px;
+    font-family: var(--font_family1);
+    font-size: var(--font_size);
     font-weight: 400;
     line-height: 1.25;
 } 
 .program_name {
     color: rgb(131, 124, 236);
-    font-family: "Druk Wide Cyr";
-    font-size: 24px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 5px;
 }
 .program_post {
     color: rgb(25, 7, 38);
-    font-family: "Mulish";
-    font-size: 24px;
+    font-family: var(--font_family1);
+    font-size: var(--font_size);
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 51px;
@@ -464,16 +465,16 @@ header:before {
     background: #5236AD;
 }
 .registration_title {
-    font-family: 'Druk Wide Cyr';
+    font-family: var(--font_family2);
     font-weight: 700;
-    font-size: 48px;
+    font-size: var(--font_size_title);
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 76px;
 }
 .registration_text {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
     font-size: 32px;
     line-height: 1.2;
@@ -503,38 +504,38 @@ header:before {
     padding: 0 20px;
     background: #FFFFFF;
     border-radius: 50px;
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     color: rgba(25, 7, 38);
     border: none;
 }
 .registration form .line .field input::-webkit-input-placeholder {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     color: rgba(25, 7, 38, 0.3);
 }
 .registration form .line .field input::-moz-placeholder {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     color: rgba(25, 7, 38, 0.3);
 }
 .registration form .line .field input:-moz-placeholder {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     color: rgba(25, 7, 38, 0.3);
 }
 .registration form .line .field input:-ms-input-placeholder {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     color: rgba(25, 7, 38, 0.3);
 }
@@ -544,9 +545,9 @@ header:before {
     height: 57px;
     background: #E9010F;
     border-radius: 30px;
-    font-family: 'Druk Wide Cyr';
+    font-family: var(--font_family2);
     font-weight: 700;
-    font-size: 24px;
+    font-size: var(--font_size);
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
@@ -567,7 +568,7 @@ footer {
     display: block;
 }
 .footer_contact {
-    font-family: 'Mulish';
+    font-family: var(--font_family1);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
