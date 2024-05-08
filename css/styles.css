@@ -99,11 +99,20 @@ input[type=number] {
 
 
 @font-face {
-    font-family: 'druk';
-    src: local('druktextwidecyr-bold'), local('druktextwidecyr-bold'),
-        url('../fonts/druktextwidecyr-bold.woff') format('woff'),
-        url('../fonts/druktextwidecyr-bold.ttf') format('truetype');
-    }
+    font-family: 'HeliosC';
+    src: local('HeliosC-Bold'),
+        url('../fonts/HeliosC-Bold.woff') format('woff'),
+        url('../fonts/HeliosC-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Muller';
+    src: local('MullerRegular'),
+        url('../fonts/MullerRegular.woff') format('woff'),
+        url('../fonts/MullerRegular.ttf') format('truetype');
+}
+
 
 
 
