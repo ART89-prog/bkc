@@ -101,8 +101,8 @@ input[type=number] {
 @font-face {
     font-family: 'HeliosC';
     src: local('HeliosC-Bold'),
-        url('../fonts/HeliosC-Bold.woff') format('woff'),
-        url('../fonts/HeliosC-Bold.ttf') format('truetype');
+        url('../fonts/HeliosExtC-Bold.woff') format('woff'),
+        url('../fonts/HeliosExtC-Bold.ttf') format('truetype');
 }
 
 
@@ -111,6 +111,13 @@ input[type=number] {
     src: local('MullerRegular'),
         url('../fonts/MullerRegular.woff') format('woff'),
         url('../fonts/MullerRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MullerBlack';
+    src: local('MullerBlack'),
+        url('../fonts/MullerBlack.woff') format('woff'),
+        url('../fonts/MullerBlack.ttf') format('truetype');
 }
 
 
@@ -127,8 +134,8 @@ input[type=number] {
     --text_color: #131313;
     --font_size: 24px;
     --font_size_title: 48px;
-    --font_family1: "Mulish";
-    --font_family2: 'druk';
+    --font_family1: 'Muller';
+    --font_family2: 'HeliosC';
 }
 
 
@@ -298,7 +305,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px 0 60px;
+    padding: 20px 0 70px;
     position: relative;
 }
 header:before {
@@ -349,17 +356,17 @@ header:before {
     font-size: var(--font_size_title);
     font-weight: 700;
     line-height: 1.2;
-    max-width: 750px;
-    margin-bottom: 20px;
+    max-width: 650px;
+    margin-bottom: 25px;
 }
 .header_text {
     color: rgb(255, 255, 255);
     font-family: var(--font_family1);
     font-size: 32px;
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1;
     max-width: 820px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 .header_btn {
     border-radius: 30px;
@@ -373,7 +380,7 @@ header:before {
     text-align: center;
     text-decoration: none;
     display: block;
-    max-width: 395px;
+    max-width: 357px;
     transition: all .4s;
     border: 2px solid #E9010F;
 }
@@ -394,7 +401,7 @@ header:before {
     font-family: var(--font_family1);
     font-size: var(--font_size);
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1;
     margin-top: 60px;
 }
 
@@ -405,7 +412,7 @@ header:before {
     padding: 60px 0 40px;
 }
 .program {
-    padding: 60px 0 44px;
+    padding: 88px 0 86px;
 }
 .program .cont {
     max-width: 940px;
@@ -416,7 +423,7 @@ header:before {
     font-family: var(--font_family1);
     font-size: var(--font_size);
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1;
     display: flex;
     justify-content: space-between;
 }
@@ -430,6 +437,7 @@ header:before {
     font-family: var(--font_family2);
     font-size: var(--font_size);
     font-weight: 700;
+    line-height: 1.25;
 }
 .program_top p span {
     font-family: var(--font_family2);
@@ -443,7 +451,7 @@ header:before {
     font-size: var(--font_size_title);
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 90px;
+    margin-bottom: 97px;
     text-align: center;
 }
 .program_wrap {
@@ -469,7 +477,7 @@ header:before {
     font-family: var(--font_family1);
     font-size: var(--font_size);
     font-weight: 400;
-    line-height: 1.25;
+    line-height: 1;
 } 
 .program_name {
     color: rgb(131, 124, 236);
@@ -506,14 +514,16 @@ header:before {
     font-family: var(--font_family1);
     font-weight: 400;
     font-size: 32px;
-    line-height: 1.2;
+    line-height: 1;
     text-align: center;
     color: #FFFFFF;
     max-width: 620px;
-    margin: 0 auto 34px;
+    margin: 0 auto 41px;
 }
 .registration_text span {
     font-weight: 900;
+    line-height: 1;
+    font-family: 'MullerBlack';
 }
 .registration form {
     max-width: 480px;
@@ -570,8 +580,9 @@ header:before {
 }
 .registration form button {
     width: 100%;
-    margin-top: 40px;
-    height: 57px;
+    max-width: 418px;
+    margin: 57px auto 0;
+    height: 58px;
     background: #E9010F;
     border-radius: 30px;
     font-family: var(--font_family2);
@@ -582,6 +593,7 @@ header:before {
     color: #FFFFFF;
     transition: all .4s;
     border: 2px solid #E9010F;
+    display: block;
 }
 .registration form button:hover {
     background: #FFFFFF;
@@ -598,7 +610,7 @@ header:before {
 
 
 footer {
-    padding: 60px 0 120px;
+    padding: 60px 0 140px;
     background: #190726;
 }
 .footer_wrap {
@@ -607,20 +619,20 @@ footer {
 }
 
 .footer_logo {
-    margin-bottom: 62px;
+    margin-bottom: 56px;
     display: block;
 }
 .footer_contact {
     font-family: var(--font_family1);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1;
     color: #FFFFFF;
     display: block;
     text-decoration: none;
 }
 .footer_contact + .footer_contact {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .footer_soc {
     display: flex;
